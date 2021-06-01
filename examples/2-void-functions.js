@@ -19,6 +19,7 @@ console.log(arrOne, "should be ['hi', 'hello', 'hey', 'hey']");
 /**
  * Sorts an array of numbers in-place, in descending order
  * @param {number[]} arrOfNums - input array of numbers to sort
+ * @returns {void}
  */
 function orderByDescending(arrOfNums) {
   arrOfNums.sort((a, b) => a - b); // don't worry about the argument used here
