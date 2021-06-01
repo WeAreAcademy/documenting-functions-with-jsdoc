@@ -78,11 +78,3 @@ console.log("\n------ pickLast -------");
 console.log("pickLast([1, 2, 3, 4])", pickLast([1, 2, 3, 4]), "should be 4");
 console.log("pickLast([4, 3, 2, 1]):", pickLast([4, 3, 2, 1]), "should be 1");
 console.log("pickLast(['hi']):", pickLast(['hi']), "should be 'hi'");
-
-
-
-// TODO (Ex.0): document and write tests for this function
-
-function asNegative(n) {
-
-}
