@@ -1,23 +1,27 @@
 "use strict"
 
-function greetString(name) {
-  return `Hello, ${name}!`;
-}
+console.log("Defining my functions...");
 
-function greetStringVoid(name) {
-  `Hello, ${name}!`;
+function greetString(name) {
+  return `Hello, ${name}, from greetString!`;
 }
 
 function greetStringPrint(name) {
-  console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}, from greetStringPrint!`);
 }
 
-let myName = "Richard";
+function greetStringVoid(name) {
+  `Hello, ${name}, from greetStringVoid!`;
+}
 
-let greetStringVal = greetString(myName);
-let greetStringVoidVal = greetStringVoid(myName);
-let greetStringPrintVal = greetStringPrint(myName);
+console.log("Now defining my variables...");
 
+let greetStringVal = greetString("Richard");
+let greetStringPrintVal = greetStringPrint("Richard");
+let greetStringVoidVal = greetStringVoid("Richard");
+
+console.log("Now printing my variables...");
+
+console.log("greetStringPrintVal:", greetStringPrintVal);
 console.log("greetStringVal:", greetStringVal);
 console.log("greetStringVoidVal:", greetStringVoidVal);
-console.log("greetStringPrintVal:", greetStringPrintVal);
