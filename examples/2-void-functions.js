@@ -12,8 +12,10 @@ function addTwiceToArray(arrOfStrings, newString) {
 
 console.log("\n------ addTwiceToArray -------");
 let arrOne = ['hi', 'hello'];
-addTwiceToArray(arrOne, "hey");
-console.log(arrOne, "should be ['hi', 'hello', 'hey', 'hey']");
+console.log("Given arrOne", arrOne);
+console.log("When executing addTwiceToArray(arrOne, 'hey')")
+addTwiceToArray(arrOne, 'hey');
+console.log("Then it should have been mutated:", arrOne, "should be ['hi', 'hello', 'hey', 'hey']");
 
 
 /**
@@ -28,5 +30,7 @@ function orderByDescending(arrOfNums) {
 
 console.log("\n------ orderByDescending -------");
 let arrTwo = [3, 1, 2, 4];
+console.log("Given arrTwo is", arrTwo);
+console.log("When executing orderByDescending(arrTwo)");
 orderByDescending(arrTwo);
-console.log(arrTwo, "should be [4, 3, 2, 1]");
+console.log("Then it should have been mutated:", arrTwo, "should be [4, 3, 2, 1]");
