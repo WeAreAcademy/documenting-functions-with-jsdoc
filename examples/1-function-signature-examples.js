@@ -6,3 +6,4 @@
 // array method examples
 ["a", "b", "c", "d"].includes();
 [1, 2, 3, 4].includes();
+["a", "b", "c", "d"].push();
