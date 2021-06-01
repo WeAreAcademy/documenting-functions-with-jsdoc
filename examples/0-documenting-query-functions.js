@@ -3,8 +3,8 @@
 /**
  * Adds together two numbers up to a maximum total of 10
  * 
- * @param {number} a 
- * @param {number} b 
+ * @param {number} a - the first number to add
+ * @param {number} b - the second number to add
  * 
  * @returns {number} the sum of `a` and `b`
  */
@@ -26,7 +26,7 @@ console.log("addButMaxAtTen(5, 6):", addButMaxAtTen(5, 6), "should be 10");
 /**
  * Capitalise the first letter only of a string
  * 
- * @param {string} str 
+ * @param {string} str - the input string
  * 
  * @returns {string} the capitalised string
  */
@@ -44,8 +44,8 @@ console.log("capitaliseFirstLetter('dOdGy'):", capitaliseFirstLetter('dOdGy'), "
 /**
  * Divide a first number by a second - unless the denominator is zero, in which case just return the numerator
  * 
- * @param {number} numerator 
- * @param {number} denominator
+ * @param {number} numerator - the number to divide
+ * @param {number} denominator - the number to divide by
  * 
  * @returns {number} the division 'result' 
  */
@@ -65,7 +65,7 @@ console.log("divideByIfNotZero(0, 0):", divideByIfNotZero(0, 0), "should be 0");
 /**
  * Return the last element in an array of strings
  * 
- * @param {string[]} arrOfStrings
+ * @param {Array<string>} arrOfStrings - an array of strings
  * 
  * @returns {string} the last element in the array
  */
@@ -81,10 +81,8 @@ console.log("pickLast(['hi']):", pickLast(['hi']), "should be 'hi'");
 
 
 
-function mysteriousUndocumentedThing(something, somethingElse) {
-  if (Math.random() > 0.5) {
-    return something;
-  } else {
-    return somethingElse;
-  }
+// TODO (Ex.0): document and write tests for this function
+
+function asNegative(n) {
+
 }
